@@ -24,14 +24,12 @@ pub trait Runner {
         println!("{}", "running");
     }
 }
-
 impl Runner for Thing {
     fn new() -> Thing {
         Thing {
             data : 5
         }
     }
-
     fn run(&self) {
         println!("{} {}", "running", self.data);
     }

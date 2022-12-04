@@ -1,3 +1,5 @@
+extern crate core;
+
 mod asdf;
 use asdf as d;
 use crate::object::{Runner, Swimmer, Thing};
@@ -26,7 +28,7 @@ fn main() {
     let d = <Thing as Swimmer>::new();
     d.swim();
 
-    // asdf::test_thread();
+    asdf::test_thread();
 
 
 }
