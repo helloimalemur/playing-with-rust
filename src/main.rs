@@ -12,6 +12,7 @@ fn main() {
 
     // let o = object::Swimmer::new();
     // o.swim();
+    //https://doc.rust-lang.org/error_codes/E0790.html
 
 
     let g = <Thing as Runner>::new();
