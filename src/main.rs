@@ -14,6 +14,11 @@ fn main() {
     // o.swim();
     //https://doc.rust-lang.org/error_codes/E0790.html
 
+    let e = object::Thing {
+        data: 10
+    };
+    e.swim();
+    e.run();
 
     let g = <Thing as Runner>::new();
     g.run();
