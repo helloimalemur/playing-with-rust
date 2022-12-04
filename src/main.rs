@@ -26,7 +26,7 @@ fn main() {
     let d = <Thing as Swimmer>::new();
     d.swim();
 
-
+    // asdf::test_thread();
 
 
 }
