@@ -13,6 +13,10 @@ fn main() {
     // let o = object::Swimmer::new();
     // o.swim();
 
+
+    let g = <Thing as Runner>::new();
+    g.run();
+
     let d = <Thing as Swimmer>::new();
     d.swim();
 

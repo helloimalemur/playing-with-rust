@@ -14,7 +14,7 @@ impl Swimmer for Thing {
         }
     }
     fn swim(&self) {
-        println!("{} {}", "nondefault swimming", self.data);
+        println!("{} {}", "swimming", self.data);
     }
 }
 
@@ -33,6 +33,6 @@ impl Runner for Thing {
     }
 
     fn run(&self) {
-        println!("{} {}", "nondefault running", self.data);
+        println!("{} {}", "running", self.data);
     }
 }
